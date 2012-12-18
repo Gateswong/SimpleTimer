@@ -1,0 +1,13 @@
+﻿<Window x:Class="timer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="64" Width="200" WindowStyle="None" AllowsTransparency="True" Background="{x:Null}" MouseDown="Window_MouseDown_1" MouseDoubleClick="Window_MouseDoubleClick_1" ResizeMode="NoResize" WindowStartupLocation="CenterOwner" ShowInTaskbar="False">
+    <Grid Background="#51D3FFD3">
+        <Label x:Name="lbTime" Content="" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" RenderTransformOrigin="0.46,0.561" Height="44" Width="180" FontFamily="Comic Sans MS" FontSize="24" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">
+            <Label.Effect>
+                <DropShadowEffect ShadowDepth="0"/>
+            </Label.Effect>
+        </Label>
+
+    </Grid>
+</Window>
